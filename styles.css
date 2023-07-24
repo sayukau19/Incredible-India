@@ -1,0 +1,88 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('india48.png');
+    background-size:cover;
+}
+
+.header {
+    text-align: center;
+    backface-visibility: hidden;
+    background-color: transparent;
+}
+
+.title {
+    width: 100%;
+    padding: 8rem 0; 
+    background-color: transparent;
+}
+
+.title h1 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    color: orange;
+    background-color: transparent;
+}
+
+.title h3 {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: white;
+    background-color: transparent
+}
+
+.title h5 {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    color: green;
+    background-color: transparent;
+}
+
+.title button {
+    position: relative;
+    display: flex;
+    border:thin;
+    outline: none;
+    border-radius: 10px;
+    border-color: rgb(169, 13, 241);
+    background-color: rgba(255, 255, 255, 0.274);
+    font-family: sans-serif;
+    border-style: groove;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    height: 2em;
+    margin: 0 auto;
+    cursor: pointer;
+    transition:.3s ease all;
+    text-decoration: none;
+}
+
+.title button:hover {
+    transform: scale(.9) translateY(-2%);
+    color: white;
+    background-image: url('indian.jpg');
+    background-size:auto;
+    width: 8em;
+    height: 2em;
+}
+
+.title a {
+    text-decoration: none;
+}

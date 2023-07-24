@@ -1,0 +1,96 @@
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+      background: #000;
+    }
+
+    .swiper-slide {
+      font-size: 18px;
+      color: #fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 40px 60px;
+    }
+
+    .parallax-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 130%;
+      height: 100%;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .swiper-slide .title {
+      font-size: 41px;
+      font-weight: 300;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color:coral;
+      letter-spacing: 1px;
+      text-shadow: white -0.2px -0.2px 5px;
+    }
+
+    .swiper-slide .subtitle {
+      font-size: 21px;
+      margin-top: 5px;
+      letter-spacing: 1px;
+      color: black;
+      text-shadow: white -0.2px -0.2px 5px;
+    }
+
+    .swiper-slide .text {
+      font-size: 14px;
+      max-width: 400px;
+      line-height: 1.3;
+      color: black;
+      text-shadow: white -0.2px -0.2px 5px;
+      font-size: 1rem;
+    }
+
+    .swiper-slide button {
+      visibility: 0.4;
+      background-color: rgba(225, 235, 231, 0.3);
+      border-radius: 7px;
+      border-style:inset 1px;
+      border-color: yellowgreen;
+      outline: transparent;
+      height: 2em;
+      width: 4.5em;
+      margin: 1px 1px;
+      padding: 1px 1px;
+      font-weight: bold;
+      color: black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .swiper-slide button:hover {
+      visibility: visible;
+      transform: scale(1.5) translateY(2%);
+      transition:.6s ease all ;
+      background-color: rgba(109, 220, 235, 0.842);
+      color: white;
+      border-color: rgba(230, 70, 190, 0.781);
+      box-shadow: rgba(238, 130, 238, 0.863) 2px 3px 5px 2px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
